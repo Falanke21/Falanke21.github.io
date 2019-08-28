@@ -1,0 +1,33 @@
+.icon {
+	display: inline-block;
+	margin: 8px 50px;
+	font-size: 40px;
+	font-family: cursive;
+}
+
+.navigator {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.navigator ul {
+	float: right;
+}
+
+.navigator li {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.center-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.greeting {
+
+}
