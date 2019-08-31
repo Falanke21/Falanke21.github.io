@@ -14,11 +14,20 @@
 
 .navigator ul {
 	float: right;
+	margin-right: 40px;
 }
 
 .navigator li {
 	display: inline-block;
-	margin: 0 30px;
+	margin: 0 5px;
+	padding: 10px 15px;
+	transition: 0.5s;
+}
+
+.navigator li:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
 }
 
 .center-content {
@@ -29,5 +38,33 @@
 }
 
 .greeting {
+	margin: 50px auto;
+}
 
+.greeting-1 {
+	font-size: 70px;
+	margin: 10px auto;
+}
+
+.greeting-2 {
+	font-size: 25px;
+	text-align: center;
+	width: 100%;
+}
+
+.center-button {
+	display: block;
+	margin: 20px auto;
+	border: white outset 4px;
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	padding: 15px;
+	transition: color 1s;
+}
+
+.center-button:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
 }
