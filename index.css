@@ -21,6 +21,7 @@
 	display: inline-block;
 	margin: 0 5px;
 	padding: 10px 15px;
+	letter-spacing: -0.02em;
 	transition: 0.5s;
 }
 
@@ -48,19 +49,43 @@
 
 .greeting-2 {
 	font-size: 25px;
-	text-align: center;
-	width: 100%;
+	margin: 0 auto;
+	width: fit-content;
+	white-space: nowrap;
+	border-right: .15em solid white;
+	animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+ 	from, to { border-color: transparent }
+ 	50% { border-color: white; }
 }
 
 .center-button {
 	display: block;
 	margin: 20px auto;
-	border: white outset 4px;
+	border: white solid 2px;
+	border-radius: 50px;
 	color: white;
 	background-color: black;
 	font-size: 30px;
 	padding: 15px;
-	transition: color 1s;
+	transition: 1.5s;
+	visibility: hidden;
+
+	animation: displayButton 2s;
+	animation-delay: 7.5s;
+	-webkit-animation: displayButton 2s;
+	-webkit-animation-delay: 7.5s;
+}
+
+@keyframes displayButton {
+	from {opacity: 0}
+	to {opacity: 100%}
+}
+@-webkit-keyframes displayButton {
+	from {opacity: 0}
+	to {opacity: 100%}
 }
 
 .center-button:hover {
