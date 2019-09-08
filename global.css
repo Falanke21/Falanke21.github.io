@@ -8,3 +8,40 @@ html {
 	font-size: x-large;
 	font-family: monospace;
 }
+
+.icon {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 8px 50px;
+	font-size: 40px;
+	font-family: cursive;
+}
+
+.navigator {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.navigator ul {
+	float: right;
+	margin-right: 40px;
+}
+
+.navigator li {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin: 0 5px;
+	padding: 10px 15px;
+	letter-spacing: -0.02em;
+	transition: 0.5s;
+}
+
+.navigator li:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
