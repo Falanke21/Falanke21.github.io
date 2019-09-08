@@ -93,3 +93,15 @@
 	background-color: white;
 	cursor: pointer;
 }
+
+.github-logo {
+	position: absolute;
+	height: 1.5em;
+	width: 1.5em;
+	top: 95%;
+	left: 97%;
+}
+
+.github-logo:hover {
+	cursor: pointer;
+}
