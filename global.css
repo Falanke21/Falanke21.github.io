@@ -9,6 +9,10 @@ html {
 	font-family: monospace;
 }
 
+a {
+	color: white;
+}
+
 .icon {
 	color: white;
 	text-decoration: none;
@@ -51,6 +55,15 @@ html {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.flaticon {
+	position: absolute;
+	top: 96%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: large;
+	color: white;
 }
 
 .github-logo {
