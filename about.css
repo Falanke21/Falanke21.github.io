@@ -22,7 +22,7 @@
 	position: relative;
 	display: inline-block;
 	max-width: 28em;
-	height: 18em;
 	float: right;
-	padding: 1em;
+	padding: 4em 0;
+	line-height: 2;
 }
