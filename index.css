@@ -1,14 +1,14 @@
 .greeting {
-	margin: 50px auto;
+	margin: 2.2em auto;
 }
 
 .greeting-1 {
-	font-size: 70px;
-	margin: 10px auto;
+	font-size: 4em;
+	margin: 0.15em auto;
 }
 
 .greeting-2 {
-	font-size: 25px;
+	font-size: larger;
 	margin: 0 auto;
 	text-align: center;
 	width: fit-content;
@@ -24,13 +24,13 @@
 
 .center-button {
 	display: block;
-	margin: 20px auto;
-	border: white solid 2px;
-	border-radius: 50px;
+	margin: 0.5em auto;
+	border: white solid 0.07em;
+	border-radius: 2em;
 	color: white;
 	background-color: black;
-	font-size: 30px;
-	padding: 15px;
+	font-size: 1.25em;
+	padding: 0.5em;
 	transition: 1.5s;
 	visibility: hidden;
 
