@@ -17,6 +17,7 @@
 .greeting-2 {
 	font-size: 25px;
 	margin: 0 auto;
+	text-align: center;
 	width: fit-content;
 	white-space: nowrap;
 	border-right: .15em solid white;
