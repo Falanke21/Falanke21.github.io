@@ -13,9 +13,20 @@
 }
 
 .profile-photo {
+	position: absolute;
 	height: 20em;
 	margin: 1px;
+	transition: 0.8s;
+}
 
+.guitar-photo {
+	position: absolute;
+	height: 20em;
+	margin: 1px;
+}
+
+.profile-photo:hover {
+	opacity: 0;
 }
 
 .about-me {
