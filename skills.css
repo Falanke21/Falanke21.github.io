@@ -4,6 +4,8 @@
 }
 
 .row {
+	display: flex;
+	justify-content: center;
 	height: 33%;
 	width: 100%;
 	margin: 1% 0;
@@ -12,7 +14,7 @@
 .col {
 	display: inline-block;
 	height: 100%;
-	width: 19%;
+	width: 15%;
 	margin: 0 6.7%;
 }
 
