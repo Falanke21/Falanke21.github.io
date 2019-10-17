@@ -1,6 +1,6 @@
 # Frank's personal website
 
-## Link: falanke21.github.io
+## [Click Me to Visit Website](falanke21.github.io)
 
 This website is a static, front-end only, pure HTML, CSS and JS github home page. Build for personal use only. 
 
