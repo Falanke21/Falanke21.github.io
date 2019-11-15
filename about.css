@@ -7,7 +7,7 @@
 	display: inline-block;
 }
 
-.profile-photo {
+/* .profile-photo {
 	position: absolute;
 	height: 20em;
 	transition: 0.8s;
@@ -19,6 +19,21 @@
 }
 
 .profile-photo:hover {
+	opacity: 0;
+} */
+
+.guitar-photo {
+	position: absolute;
+	height: 20em;
+	transition: 0.8s;
+}
+
+.profile-photo {
+	position: absolute;
+	height: 20em;
+}
+
+.guitar-photo:hover {
 	opacity: 0;
 }
 
