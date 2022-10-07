@@ -27,11 +27,6 @@
 	height: 20em;
 }
 
-
-.guitar-photo:hover {
-	opacity: 0;
-}
-
 .about-me {
 	position: relative;
 	display: inline-block;

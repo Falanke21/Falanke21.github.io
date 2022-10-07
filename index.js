@@ -40,7 +40,7 @@ window.onload = function greet(){
 	  }
 	}
 
-	setTimeout(displayButton, 7500);
+	setTimeout(displayButton, 7000);
 	function displayButton() {
 		document.getElementById("me-button").style.visibility = "visible"
 	}
