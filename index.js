@@ -10,13 +10,13 @@ window.onload = function greet(){
 	var txt = "It's " + displayTime + " now"
 
 	if (hours < 12 && hours > 6) {
-		var result = "Good morning from Downtown Toronto"
+		var result = "Good morning from London"
 	} else if (hours >= 12 && hours < 18) {
-		var result = "Good afternoon from Downtown Toronto"
+		var result = "Good afternoon from London"
 	} else if (hours >= 18 && hours < 22) {
-		var result = "Good evening from Downtown Toronto"
+		var result = "Good evening from London"
 	} else {
-		var result = "Good night from Downtown Toronto."
+		var result = "Good night from London."
 	}
 
 	var i = 0;
